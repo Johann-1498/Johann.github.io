@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+    
+}
+body {
+    color:aliceblue;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color:rgb(0, 0, 0);
+    
+    
+}
+.logo  {
+    position: relative;
+    font-size: 25px;
+    color:aliceblue;
+    text-decoration: none;
+    font-weight: 900;
+    
+    
+}
+
+.navbar a {
+    display: inline-block;
+    font-size: 23px;
+    color:aliceblue;    
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: .3s;
+
+    
+}
+nav a:hover{
+    color: dimgray;
+}
+.inicio{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh ;        
+    background-color: rgba(255, 255, 255, 1);
+    background-image:  url(https://cdn.wallpapersafari.com/82/54/By57FJ.jpg);
+    background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+    
+}
+.icons a{
+        display:inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background:transparent   ;
+        border: 2px solid aliceblue;
+        border-radius:40%;
+        font-size: 20px;
+        color:aliceblue;
+        text-decoration: none;
+        margin: 30px 15px 30px 0 ;
+}
+.icons a:hover{
+    background: aliceblue;
+    color:black;
+    transition: .3s;
+    box-shadow: 0 0 20px aliceblue;
+    border: black;
+}
