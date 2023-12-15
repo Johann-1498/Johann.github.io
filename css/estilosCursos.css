@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+    
+}
+body {
+    color:aliceblue;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 3%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color:rgb(0, 0, 0);
+    
+    
+}
+.logo-text  {
+    position: relative;
+    font-size:45px;
+    color:aliceblue;
+    text-decoration: none;
+    font-weight: 900;  
+    display: flex;
+    padding: 2%;
+    font-family:monospace;
+    
+}
+.logo {
+    padding: 1px 1px;
+    width: 200px;
+    height: 50px;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo-icon a{
+        display:inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background:transparent   ;
+        border-radius:4%;
+        font-size: 50px;
+        color:aliceblue;
+        text-decoration: none;
+        margin: 1px 1px 1px 0 ;
+        padding: 25px;
+}
+
+.navbar a {
+    display: inline-block;
+    font-size: 25px;
+    color:aliceblue;    
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: .3s;
+
+    
+}
+nav a:hover{
+    color: dimgray;
+}
+.content{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh ;        
+    background-color: rgb(251, 207, 40);
+    background-image:  url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zNDctYmFpZmVybm4tMDcuanBn.jpg);
+    background-size: 100%;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 80px 3% 0;
+    
+}
+.curs-title{
+    
+    color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 60px;
+}
+.Cursos{
+    width: 100%;
+    height: 80%;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    color:rgb(0, 0, 0);
+    margin-left: 70px;
+}
+.curs {
+
+    padding: 1px 10px 10px 10px;
+    background-color: rgb(251, 207, 40);
+    flex-wrap: wrap;
+    width: 900px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+}

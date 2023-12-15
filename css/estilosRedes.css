@@ -14,7 +14,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
+    padding: 20px 3%;
     background: transparent;
     display: flex;
     justify-content: space-between;
@@ -24,19 +24,44 @@ body {
     
     
 }
-.logo  {
+.logo-text  {
     position: relative;
-    font-size: 25px;
+    font-size:45px;
     color:aliceblue;
     text-decoration: none;
-    font-weight: 900;
+    font-weight: 900;  
+    display: flex;
+    padding: 2%;
+    font-family:monospace;
     
+}
+.logo {
+    padding: 1px 1px;
+    width: 200px;
+    height: 50px;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
     
+}
+.logo-icon a{
+        display:inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background:transparent   ;
+        border-radius:4%;
+        font-size: 50px;
+        color:aliceblue;
+        text-decoration: none;
+        margin: 1px 1px 1px 0 ;
+        padding: 25px;
 }
 
 .navbar a {
     display: inline-block;
-    font-size: 23px;
+    font-size: 25px;
     color:aliceblue;    
     text-decoration: none;
     font-weight: 500;
@@ -62,6 +87,9 @@ nav a:hover{
     align-items: center;
     padding: 70px 10% 0;
     
+}
+h1 {
+    font-size: 60px;
 }
 .icons a{
         display:inline-flex;

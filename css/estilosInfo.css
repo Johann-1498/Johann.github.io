@@ -9,15 +9,15 @@
 body {
     color:aliceblue;
     margin: auto;
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.8627100498402486) 20%, rgba(0,212,255,1) 100%);
+    background: rgb(0, 0, 0);
+
 }
 .header{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
+    padding: 20px 3%;
     background: transparent;
     display: flex;
     justify-content: space-between;
@@ -27,19 +27,44 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.86271004984
     
     
 }
-.logo  {
+.logo-text  {
     position: relative;
-    font-size: 25px;
+    font-size:45px;
     color:aliceblue;
     text-decoration: none;
-    font-weight: 900;
+    font-weight: 900;  
+    display: flex;
+    padding: 2%;
+    font-family:monospace;
     
+}
+.logo {
+    padding: 1px 1px;
+    width: 200px;
+    height: 50px;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
     
+}
+.logo-icon a{
+        display:inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background:transparent   ;
+        border-radius:4%;
+        font-size: 50px;
+        color:aliceblue;
+        text-decoration: none;
+        margin: 1px 1px 1px 0 ;
+        padding: 25px;
 }
 
 .navbar a {
     display: inline-block;
-    font-size: 23px;
+    font-size: 25px;
     color:aliceblue;    
     text-decoration: none;
     font-weight: 500;
@@ -51,30 +76,47 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.86271004984
 nav a:hover{
     color: dimgray;
 }
-.info{
+.info0{
     position: relative;
     width: 100%;
     justify-content: space-between;
     height: 100vh ;    
     background-image:  url(https://c1.wallpaperflare.com/preview/427/745/192/notebook-natural-laptop-macbook.jpg);
     background-size: 100%;
-    background-position: center top;
-    background-repeat: no-repeat;
+    background-position: center ;
+    background-repeat: repeat;
     display: flex;
     align-items: center;
     padding: 70px 10% 0;
     
+    
 }
+.text0 {
+    justify-content: right;
+    align-items: right;
+    font-size: 20px;
+    margin: 8px;
+    border: rgb(255, 255, 255) solid ;
+    border-radius:10px;
+    padding: 1%;
+}
+.info-title{
+    font-size: 60px;
+    justify-content: right;
+    align-items: right;
+    display: flex;
+    padding-bottom: 100px;
+    
+}
+
 .image{
-    width: 70%;
+    width: 65%;
     border-radius: 50px;
-    margin-top: 150px;
-    margin-left: 50px;
     padding: 20px;
     
     
 }
-.info-image{
+.info1{
     position: relative;
     width: 100%;
     justify-content: space-between;
@@ -83,11 +125,27 @@ nav a:hover{
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    padding: 70px 10% 0;
+    padding: 70px 4% 0;
+    
+}
+.info2{
+    position: relative;
+    width: 100%;
+    height: 100vh ;    
+    justify-content: space-between;    
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: wheat;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 70px 4% 0;
     
 }
 .text { 
     padding: 10px;
     height: auto;
     width: 600px;
+    text-align: justify;
+    text-justify: inter-word;
 }

@@ -62,7 +62,7 @@ body {
 
 .navbar a {
     display: inline-block;
-    font-size: 19px;
+    font-size: 25px;
     color:aliceblue;    
     text-decoration: none;
     font-weight: 500;
@@ -84,7 +84,7 @@ nav a:hover{
     background-image:  url(https://www.fortplainfreelibrary.org/wp-content/uploads/2016/05/free-professional-website-backgrounds_188492.jpg);
     background-size: auto;
     background-position: left top;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
 }
 .Hobbies{
 
@@ -105,23 +105,52 @@ nav a:hover{
     
 }
 .hob-items{
-    margin-left: 5%;
-    margin-right: 1%;  
-    height: 100px;
-    border: 2px solid #4800f0;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    gap: 50px;
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
     
 }
 
 .hob {
-    border: 2px solid;
+    width: 24%;
+    height: 450px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0,0,0, .5); 
+
+}
+.hob > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.hob-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background:rgba(147, 144, 144, 0.664);
+    transition: transform .2s;
     display: flex;
-    
     justify-content: center;
     align-items: center;
-    
+    flex-direction: column;
 }
+.hob-hover a{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;    
+    background:transparent   ;    
+    font-size: 40px;
+    color:aliceblue;
+    text-decoration: none;
+    
 
+}
+.hob:hover .hob-hover{
+    transform: scale(1.5);
+}

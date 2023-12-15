@@ -25,22 +25,25 @@ body {
     
     
 }
-.logo  {
+.logo-text  {
     position: relative;
-    font-size: 20px;
+    font-size:45px;
     color:aliceblue;
     text-decoration: none;
-    font-weight: 700;  
+    font-weight: 900;  
     display: flex;
+    padding: 2%;
+    font-family:monospace;
     
 }
-.logos {
+.logo {
     padding: 1px 1px;
-
-    width: 400px;
+    width: 200px;
+    height: 50px;
     display:inline-flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
+    
 }
 .logo-icon a{
         display:inline-flex;
@@ -49,17 +52,17 @@ body {
         width: 40px;
         height: 40px;
         background:transparent   ;
-        border: 2px solid aliceblue;
         border-radius:4%;
-        font-size: 20px;
+        font-size: 50px;
         color:aliceblue;
         text-decoration: none;
         margin: 1px 1px 1px 0 ;
+        padding: 25px;
 }
 
 .navbar a {
     display: inline-block;
-    font-size: 19px;
+    font-size: 25px;
     color:aliceblue;    
     text-decoration: none;
     font-weight: 500;
@@ -86,26 +89,37 @@ nav a:hover{
     
 }
 .inicio-contenido{
-    border: rgb(255, 255, 255) solid ;
-    border-radius:10px;
-    padding: 10px 2%;
+    padding: 5px;
     text-align: justify;
     text-justify: inter-word;
+    margin-top: 30px;
+    margin-bottom: 30px;    
+}
+.inicio-contenido h1{
+    justify-content: left;
+    align-items: left;
+    display: flex;
+    font-size: 60px;    
+}
+
+.contenido-text p{
+    font-size: 18px;
+}
+.text{
+    margin: 10px;
+    border: rgb(255, 255, 255) solid ;
+    border-radius:10px;
+    padding: 2%;
+}
+.img {    
+    justify-content: center;
+    align-items: center;
+    display: flex;
     
 }
-.acercaDeMi{
-    margin-top: px;
-    position: relative;
-    width: 100%;
-    justify-content: space-between;
-    height: 100vh ;
-   
-    background-size: 100%;
-    background-position: center top;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    padding: 70px 10% 0;
+.img img{
+    height: 300px;
+    width: 600px;
 }
 
 
